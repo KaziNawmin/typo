@@ -1,0 +1,95 @@
+@font-face{
+    font-family: "op-sans-bold";
+    src:url(../assests/fonts/OpenSans-Bold.ttf);
+
+}
+@font-face{
+    font-family: "lobster";
+    src:url(../assests/fonts/Lobster-Regular.ttf);
+
+}
+@font-face{
+    font-family: "comic";
+    src:url(../assests/fonts/ComicNeue-Regular.ttf);
+
+}
+
+:root{
+    --yellow:#fad633;
+    --black:#252525;
+}
+body{
+    margin: 0;
+    background-color: var(--black);
+    color:#fff;
+    font-family: "op-sans-bold";
+    font-size: 20px;
+    overflow: hidden;
+}
+.pikachu{
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    right: -15%;
+
+}
+.hello{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 120px;
+    color:#fff;
+    opacity: 0.1;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+    
+}
+.love{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: "lobster";
+    color: #fff;
+    opacity: 0.1;
+    letter-spacing: 8px;
+    word-spacing: 3px;
+}
+.love-text{
+    font-size: 100px;
+}
+.love-name{
+    font-size: 200px;
+}
+.intro{
+    position: absolute;
+    left:10%;
+    top: 50%;
+    transform: translateY(-50%);
+    letter-spacing: 3px;
+
+}
+.name{
+    font-size: 80px;
+    color: var(--yellow);
+    
+
+}
+.name::first-letter{
+    font-size: 200px;
+}
+.me{
+    font-size: 50px;
+    font-family: "comic";
+    position: absolute;
+    top: 27%;
+    left: 23%;
+}
+.desc{
+    font-size: 50px;
+    font-family: "lobster";
+    text-align: right;
+}
